@@ -84,6 +84,17 @@ Additional charts explaining churn behavior on other factors
  - Data Modeling
  - Telco Customer Churn Dataset
 
+## 📌 Conclusion
+
+The churn analysis highlights a few strong patterns:
+ - Month-to-month contracts have the highest churn. Long-term contracts reduce churn significantly.
+ - Fiber optic users churn more than DSL users, likely due to pricing or service satisfaction.
+ - High monthly charges correlate strongly with churn.
+ - New customers (low tenure) are most likely to leave early.
+ - Lack of tech support/security add-ons is linked with higher churn.
+ - Senior citizens show slightly higher churn.
+ - Customers using electronic check payments churn more than those using auto-payments.
+Overall, churn is driven by contract type, pricing, service experience, and support availability. Strengthening early engagement and offering value-added services can help reduce churn.
 
 ## 📥 How to Use This Project
 
