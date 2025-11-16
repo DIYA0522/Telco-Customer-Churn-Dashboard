@@ -78,11 +78,11 @@ Additional charts explaining churn behavior on other factors
 
 ## 🛠 Tools & Technologies
 
-Power BI Desktop
-DAX
-Power Query
-Data Modeling
-Telco Customer Churn Dataset
+ - Power BI Desktop
+ - DAX
+ - Power Query
+ - Data Modeling
+ - Telco Customer Churn Dataset
 
 
 ## 📥 How to Use This Project
@@ -98,4 +98,5 @@ Experiment with filters to analyze different customer segments
 ## 👩‍💻 Author
 
 Diya Philip
+
 Aspiring Data Analyst skilled in Power BI, SQL, and Excel.
