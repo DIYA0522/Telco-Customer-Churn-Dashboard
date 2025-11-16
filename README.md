@@ -57,50 +57,35 @@ Performed using Power Query:
 
 ## 🧮 DAX Measures Used
 
-```DAX
-ChurnCount = CALCULATE(COUNTROWS('Table'), 'Table'[Churn] = "Yes")
-
-ChurnRate = DIVIDE([ChurnCount], [TotalCustomers], 0)
-
-TotalCustomers = COUNTROWS('Table')
-
-AvgTenure = AVERAGE('Table'[tenure])
-
-AvgTenureDisplay = FORMAT([AvgTenure], "0") & " months"
+ - ChurnCount = CALCULATE(COUNTROWS('Table'), 'Table'[Churn] = "Yes")
+ - ChurnRate = DIVIDE([ChurnCount], [TotalCustomers], 0)
+ - TotalCustomers = COUNTROWS('Table')
+ - AvgTenure = AVERAGE('Table'[tenure])
+ - AvgTenureDisplay = FORMAT([AvgTenure], "0") & " months"
 
 
-📊 Visuals Included in Dashboard
+## 📊 Visuals Included in Dashboard
 
-KPI Cards (Total Customers, Churn Rate, Avg Tenure, etc.)
+ - KPI Cards (Total Customers, Churn Rate, Avg Tenure, etc.)
+ - Churn by Contract Type (Most important driver)
+ - Churn by Tenure Group
+ - Churn by Internet Service
+ - Churn by Monthly Charge Slab
+ - Heatmap: Tenure Group × Internet Service
+ - Customer Distribution by Contract Type
 
-Churn by Contract Type (Most important driver)
+Additional charts explaining churn behavior on other factors
 
-Churn by Tenure Group
-
-Churn by Internet Service
-
-Churn by Monthly Charge Slab
-
-Heatmap: Tenure Group × Internet Service
-
-Customer Distribution by Contract Type
-
-Additional charts explaining service usage & churn behavior
-
-🛠 Tools & Technologies
+## 🛠 Tools & Technologies
 
 Power BI Desktop
-
 DAX
-
 Power Query
-
 Data Modeling
-
 Telco Customer Churn Dataset
 
 
-📥 How to Use This Project
+## 📥 How to Use This Project
 
 Download or clone this repository
 
@@ -110,7 +95,7 @@ Explore dashboard pages, slicers, and visuals
 
 Experiment with filters to analyze different customer segments
 
-👩‍💻 Author
+## 👩‍💻 Author
 
 Diya Philip
 Aspiring Data Analyst skilled in Power BI, SQL, and Excel.
