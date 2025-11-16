@@ -7,7 +7,7 @@ This project identifies key churn drivers, customer segments at risk, and action
 
 ## 📸 Dashboard Preview
 
-![Dashboard Preview](dashboard/screenshots/dashboard_full.png)
+![Dashboard Preview](dashboard/Telco Customer Analytics_dashboard.jpg)
 
 ---
 
@@ -89,7 +89,7 @@ Additional charts explaining churn behavior on other factors
 
 Download or clone this repository
 
-Open telecom_churn.pbix using Power BI Desktop
+Open Telco Customer Analytics_dashboard.pbix using Power BI Desktop
 
 Explore dashboard pages, slicers, and visuals
 
