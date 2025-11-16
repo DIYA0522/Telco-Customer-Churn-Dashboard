@@ -7,7 +7,7 @@ This project identifies key churn drivers, customer segments at risk, and action
 
 ## 📸 Dashboard Preview
 
-![Dashboard Preview](dashboard/Telco Customer Analytics_dashboard.jpg)
+![Dashboard Preview](dashboard/Telco_Customer_Analytics_dashboard.jpg)
 
 ---
 
